@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #F4BB44;
+}
+/*heading*/
+.navbar-brand{
+	font-family: fantasy;
+	text-shadow: 1px 1px 1px #fff;
+	margin-left: 10px;
+}
+/*logo*/
+.navbar-brand img{
+	width: 6rem;
+	height: 6rem;
+	padding :0;
+	margin: 0;
+}
+.navbar-toggler{
+	position: absolute;
+	top: 10rem;
+	right: 0;
+	display: flex;
+
+}
+/*menubuttons*/
+li{
+	font-size: 90%;
+	margin-left: 2em;
+
+}
+li:hover{
+	background-color: white;
+}
+#bliss{
+	text-align: center; 
+	margin: 1rem 1rem 1rem 1rem;
+	text-shadow: 2% 2% 2% #fff; 
+	color: grey; 
+	font-size: 2.5rem; 
+	font-family: serif;
+	border-style: dotted;
+	border-radius: 1.5em;
+}
+/*main image*/
+section img{
+	width: 60%; 
+	height: 40%; 
+	margin: 0 auto; 
+	padding: auto;
+	align-items: center;
+	display: block;
+}
+#time{
+	text-align: center; 
+	margin: 2rem auto; 
+	color: black; 
+	font-size: 1.5rem; 
+	font-family: serif;
+}
+footer ul{
+	margin-right: 10px;
+	text-decoration: underline solid black;
+	text-align: center;
+}
+footer a{
+	width: 100px;
+	text-align: center;
+}
+
+
+
+
+
+
